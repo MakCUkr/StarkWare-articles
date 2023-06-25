@@ -1,0 +1,33 @@
+﻿Dojo - the first provable gaming engine
+
+
+The Gaming Engine
+
+
+In the realm of modern gaming, there is a crucial technology that operates behind the scenes of the majority of games, enabling the beautiful scenery, swift player movements, and the realistic character behaviors inside the game. This puppeteer, which is invisible to a common gamer and is a crucial part of the development cycle of any games, is known as a gaming engine.
+
+
+By definition, a gaming engine is a  software framework primarily designed for the development of video games and generally includes relevant libraries and support programs. A gaming engine gives the developers a framework so that they don’t have to recreate fundamental systems such as physics, graphics and mechanics of the game from scratch. Additional features such as audio and video processing, rendering 3D effects, and adding AI features can also be a part of the engine. In other words, a game engine is similar to a stage upon which any game is built. 
+
+
+Most of the games that we love to play owe their existence to two of the most popular game engines in the world : Unity and Unreal Engine. The Unreal Engine, developed by Epic Games, has been used in popular titles like "Fortnite," "Street Fighter V," and the "Gears of War" series. Unity, another major player in the game engine industry, has brought games like "Hearthstone," "Ori and the Blind Forest," and "Pokémon Go" to life.
+
+
+The global gaming market which is valued at $ 245 billion (source) as of 2023 is one of the largest components of the worldwide entertainment industry. This considerable size is also widely attributed to the worldwise lockdowns during the COVID-19 pandemic (that is also when blockchain-based games like Axie Infinity, Decentraland, and Sanbox had their boom - albeit the mentioned games are not considered to be actually web3 games as explained in our previous article). Looking ahead, the market is projected to continue its upward trajectory. By 2028, the market size is expected to reach USD 343.6 billion, growing at a compound annual growth rate (CAGR) of 9.08% during the forecast period from 2023 to 2028. 
+
+Taking into consideration the huge size of the market, gaining deeper insight into the product that is a part of the most vital stage of the video game development cycle should pique the interest of those passionate about staying updated with the newest trends in this domain.
+Starknet and cheap computation 
+
+
+When we talk of the gaming ecosystem, the domain has been buzzing with activity since its creation. The first video game which was created in 1958 (a very simple version of the Pong tennis game) and since then there have been new advancements in the field every decade - most of them focusing on more realistic graphics. Today, the graphical representation in video games has achieved such sophistication that it can sometimes be challenging to discern between a real-life image and a scene crafted in a video game. 
+   
+Snapshot from “Forza Horizon 5” game where it is difficult to separate reality from the virtual world 
+
+
+In recent years, however, a certain ideology has also taken birth which talks about ownership of in-game assets and interoperability. These ideas can be integrated into games when these are built on top of the decentralized ledgers i.e. blockchains. Web3 games, the new term given to such games, concentrate on trying to build the complete game on-chain. This means that all the in-game assets, all the actions taken by the player and any other state changes must take place as a transaction (either separately for each action or an aggregate transaction pushed periodically) on the blockchain. 
+
+
+Ownership of in-game assets means that these assets belong to the wallet associated with the user and not to a simple email account stored on a server that can be remotely deleted by the game devs. Since the asset belongs to the wallet address, interoperability becomes yet another pro of such games. Imagine investing hundreds of hours in a game and then having no output from it if the game becomes boring for you. With interoperability, or characters from one game could be transferred to another. In today’s scenario dependent on collaborations between different game developers but it could dramatically reshape the gaming landscape and enhance the overall player experience.
+
+
+With the added benefit of these amazing features comes the curse of expensive transactions on blockchains that we all have heard of. On a fairly decentralized blockchain, it can cost somewhere between a couple of cents to hundreds of dollars (during congestion) to send a single transaction. Operating large-scale gaming infrastructure on such platforms becomes prohibitively expensive and rather impractical.
