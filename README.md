@@ -5,4 +5,4 @@
 4. Cambrian Explosion of Cryptographic Proofs - [Medium link](https://starkware.medium.com/cambrian-explosion-of-cryptographic-proofs-5740a41cdbd2#:~:text=The%20Cambrian%20explosion%20of%20cryptographic,currently%20being%20used%20in%20web3)
 5. Arithmetization - [Medium link](https://medium.com/starkware/arithmetization-i-15c046390862)
 6. Moving from Cairo to Solidity - [Medium link](https://starkware.medium.com/moving-from-solidity-to-cairo-7d44f9723c68)
-7. Dojo - the first provable gaming engine - [Not published yet]
+7. Dojo - the first provable gaming engine - [Medium link](https://medium.com/starkware/dojo-on-starknet-game-on-f75ad441d869)
