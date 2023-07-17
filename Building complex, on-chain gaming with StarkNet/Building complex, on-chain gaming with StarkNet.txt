@@ -1,0 +1,58 @@
+﻿Building complex, on-chain gaming with StarkNet
+
+
+Starknet is a powerful validity rollup layer (an L2) built on Ethereum. This means that any transaction on StarkNet is secured by the 670,000 validators actively participating in the consensus layer of Ethereum. With the recent Starknet upgrade that massively increased the number of processable transactions per second (TPS), transaction-heavy use industries like gaming can thrive. Multiple gaming projects (Influence, Realms, Briq, Cartridge, Dojo gaming engine, etc.) are building on Cairo, the language of smart contracts on Starknet. Cairo is a Rust-based smart contract language that allows developers to easily build provable applications with which users on Starknet can interact. Cairo’s latest version (v1.0) has made it more user-friendly than ever (so if you last wrote code in Cairo v0.x, now is the time to check it out again - here is a guide for developers moving from Solidity to Cairo). 
+
+
+Below we will explore the journey of two of the largest games close to releasing the first public versions on Starknet - Realms and Influence -  and discuss both difficulties and novel possibilities that stand before them.
+
+
+Realms
+
+
+Realms - is one of the pioneers of the "eternal games" space, an MMOCCG (massively multiplayer on-chain composable games) that contains 8000 pieces of lands (named Realms), with each Realm containing various resources that are limited in supply (reminds me of a game that has been going "online" for thousands of years - the game of human civilizations). However, before diving deep into the world of Realms, let us first understand what an eternal game really means. Eternal games, as the name suggests, are supposed to be ever-lasting and should be able to function independently of the developers behind the games. Eternal games created on any blockchain live as long as the blockchain supporting them is active. For this to be valid, the game's logic must stay on-chain, starting from the game physics and ending with on-chain ownership of in-game assets. Another necessary condition required for eternal games is that no end-state should be achievable in the course of the game. Since the entire game logic exists on-chain, even if the game developers get completely detached from development, others can build on top of the game code submitted on the blockchain.
+
+
+The Realms in the game are pieces of land in an imaginary world such that each Realm has a limited supply of resources (e.g., wood, stone, copper, etc.) and geolocational traits (cities, regions, harbors, etc.). A capital market for labor and constrained space on Realms for building various buildings (military, agricultural, storehouses) encourages the owner of the Realm to strategically manage his resources. Considering that the population of the Realm rises with time and development, the Realm owner must also ensure that there is enough food for everyone in the Realm to satiate their hunger. Military planning is also another field that the Realm owner must consider - attacking other Realms for other resources gives the motivation to develop your own army and skills (development of military also takes up building space, so you have to be careful), and defending your Realm from foreign attacks encourages the Realm owner to work on defense and strategy.
+
+
+The vast array of factors that the owner of the Realm must consider is an important part of the game and the most difficult part of engineering the game. Since the complete game logic must be written in Cairo and lives on smart contracts on-chain. In a recent interview with the game developers behind Realms, we discussed the advantages and disadvantages of building games on Starknet. Cairo, a relatively new language, might need more resources and support for building games, but the speed with which growth and adoption are happening promises a bright future. Dojo is a gaming engine built in Cairo and is the world's first provable game engine. Even though Dojo is still not a final product, it makes the life of game developers much easier (read more about Dojo here). Realms also use Dojo behind the scenes, and both teams share expertise. 
+
+
+The Realms DAO takes all the decisions of the further path for Realms. Users who own a Realm on the Ethereum mainnet can choose to participate in voting rounds and have a say in the game's future.
+
+
+When going through the Realms codebase on GitHub, it is noticeable that Cairo appears similar to Rust, an efficient general-purpose language used for creating operating systems, file systems, game engines, and more. Being Rust-based, Cairo has also been very important in the gaming landscape on Starknet.
+What makes this connection important? The growing intersection of gaming and blockchain technology. As we move from the Web 2.0 world to a new era of decentralized technologies (Web 3.0), there's a substantial opportunity for game developers familiar with languages like Rust to transition into blockchain game development. In this context, Cairo could serve as a bridge for these game developers due to its Rust-inspired design in the early version.
+As we look toward the future growth of gaming on StarkNet, it's worth underlining that by encouraging game developers to leverage their existing Rust expertise, we can stimulate the migration of talented creators from the traditional gaming world to the innovative Realm of blockchain gaming. Even though smart contract developers moving from Solidity are undeniably valuable, for blockchain gaming to reach its full potential, we must also harness traditional game developers' creativity, experience, and technical know-how. They would bring a new perspective focusing on efficient and sustainable smart contracts and building an engaging user experience, gameplay mechanics, and immersive worlds.
+Various teams are making strides to create novel experiences in this rapidly growing landscape of blockchain gaming. Realms is one such example, and as we transition our focus, another team that's making significant contributions to this arena is Influence. 
+
+
+Influence
+
+
+Influence is a challenging player-driven space strategy massively multiplayer online (MMO) game. The main difference between Influence and other more common sci-fi games is that the developers have tried to stick as much as possible to reality and science to our current understanding of the world. 
+
+
+The game's plot revolves around the theme that due to war and global warming, human beings had to leave Earth and, after 150 years (or 3 generations) of traveling, reach a 5-planet solar system called Adalia. Exploratory analysis of the planets yields disappointing news since none are habitable. In a final desperate bid to survive, humans scan the asteroids around the solar system and find a wide array of 250,000 asteroids with various minerals and raw materials needed to survive. A plan takes birth to colonize the first asteroid named Adalia Prime. 
+
+
+At this point in the timeline, the first stage of the game, Exploitation, starts. The Exploitation stage allows players to colonize other asteroids, mine, build, trade, and, essentially, exploit the resources of the asteroids as much as possible. The next 2 stages of the game are named Discovery and Conflict. During Discovery, the focus subtly transitions from raw-material-centric economies to specialization and technology advancements. The subsequent Conflict stage marks a significant shift in the game dynamics, with inter-asteroid conflicts becoming possible. At this point, the game evolves into a full-fledged player-vs-player warfare experience.
+
+
+Of the 250,000 asteroids, about 11,000 asteroids have been sold in two land sales ___ by the Influence team. However, it is interesting that you don't need to own an asteroid to exploit it. Any player who first buys a character to play with lands on Adalia Prime by default and starts his "exploitation" journey. Given that the structure of the asteroid belt adheres to the principles of real-world orbital physics, player movements between asteroids necessitate careful strategizing. Players must consider their layovers on specific asteroids carefully and ensure sufficient fuel supply for inter-asteroid travels. As another example of detailed strategizing around which the game involves, players must determine the optimal extractor for each resource type and the asteroid that best suits the extraction of each specific resource.
+
+
+In the coming weeks, Influence devs will release the inaugural playable version of the game on testnet. Since the recent Starknet upgrade significantly increased possible TPS, games like Influence have become easier to implement. 
+
+
+Building on top of blockchain games 
+
+
+Since games like Influence and Realms are built completely in Cairo, players retain substantial freedom in game engagement. If players find the core team's vision for Influence unsatisfactory, they can independently construct their user interface and experience, leveraging its assets and game progression. The power of having third-party applications built on top of Influence is also clear to the core team of Influence. Fifteen applications are currently being built with Influence contracts at the center. (Should add Realms examples here, too, need to confirm with the Realms team). 
+
+
+For example, let us imagine that to mine resources on someone's land, you must pay rent based on how many resources you extract. Anybody who wishes to do so has the freedom to deploy a smart contract allowing the extraction of resources from their asteroids. Other players could hook in a feature to incentivize players from other asteroids to land on their land by gifting free SWAY (the in-game currency of Influence) or some other perks, NFTs, etc. The array of possibilities is immense. 
+
+
+As enhancements such as Volition and EIP-4844 are integrated, the cost of transactions is set to decrease even further. Concurrently, with continuous improvements in the Starknet sequencer, the transaction speed will also experience an upward trajectory. Amidst this progressive scenario, the outlook for the gaming industry appears promising.
