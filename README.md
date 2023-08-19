@@ -6,5 +6,6 @@
 5. Arithmetization - [Medium link](https://medium.com/starkware/arithmetization-i-15c046390862)
 6. Moving from Cairo to Solidity - [Medium link](https://starkware.medium.com/moving-from-solidity-to-cairo-7d44f9723c68)
 7. Dojo - the first provable gaming engine - [Medium link](https://medium.com/starkware/dojo-on-starknet-game-on-f75ad441d869)
-8. Building complex, on-chain gaming with StarkNet
+8. Building complex, on-chain gaming with StarkNet - [Starknet website](https://www.starknet.io/en/posts/ecosystem/let-the-games-begin-redefining-onchain-gaming-with-starknet)
 9. 5 top practices for beginning Cairo devs
+10. Potential of xERC20 tokens
