@@ -9,3 +9,6 @@
 8. Building complex, on-chain gaming with StarkNet - [Starknet website](https://www.starknet.io/en/posts/ecosystem/let-the-games-begin-redefining-onchain-gaming-with-starknet)
 9. 5 top practices for beginning Cairo devs
 10. Potential of xERC20 tokens
+11. Herodotus Turbo
+12. Starknet's Dojo Engine Poised to Disrupt the Emerging Autonomous Worlds Space
+13. Proving Ethereum's state on Starknet
