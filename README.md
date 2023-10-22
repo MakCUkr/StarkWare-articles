@@ -12,3 +12,4 @@
 11. Herodotus Turbo
 12. Starknet's Dojo Engine Poised to Disrupt the Emerging Autonomous Worlds Space
 13. Proving Ethereum's state on Starknet
+14. Part 2. Building complex, on-chain gaming with StarkNet
